@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: pdfCounter
+Implementation-Version: 1.0
+Main-Class: pdfCounter.App
+
