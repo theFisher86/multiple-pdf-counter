@@ -41,7 +41,10 @@ public class App {
         
             try (PrintStream out = new PrintStream(new FileOutputStream("NumberOfPages.txt"))) {
                     out.print(count);
+            } catch(Exception e){
+                e.printStackTrace();
             }
+            
 
 
 
